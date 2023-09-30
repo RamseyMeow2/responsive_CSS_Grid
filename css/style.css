@@ -147,7 +147,7 @@ nav a:focus {
 first div in the grid  and place it in the grid. */
 .container div:first-child {
   grid-column: 1/-1;
-  min-height: 500;
+  min-height: 500px;
   background-image: url("../images/header.jpg");
 }
 
@@ -190,6 +190,7 @@ img {
 .contact-image {
   grid-column: 1/-1;
   max-height: 600px;
+  overflow: hidden;
 }
 
 
